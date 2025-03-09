@@ -1,59 +1,48 @@
-# BarberShopUi
+# 💈 Barber-Shop-UI - Sistema de Agendamento para Barbearia
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Durante o desenvolvimento deste projeto, criei um sistema de agendamento completo para uma barbearia. O **Barber-Shop-UI** é um aplicativo fullstack, que permite o cadastro de clientes, a listagem de cadastros e o agendamento de horários para os clientes. O sistema foi construído utilizando **Angular** para o front-end e **Java** para o back-end.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-ng serve
-```
+As principais tecnologias e ferramentas utilizadas no projeto foram:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular** 
+- **TypeScript**
+- **HTML5**
+- **CSS3**
+- **Bootstrap**
+- **Java (Back-end)**
+- **Spring Boot (Back-end)**
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🎯 Funcionalidades
 
-```bash
-ng generate component component-name
-```
+- ✔️ **Cadastro de Clientes**: Permite adicionar novos clientes ao sistema.
+- ✔️ **Listagem de Clientes**: Exibe todos os clientes cadastrados.
+- ✔️ **Agendamento de Horários**: Permite agendar horários para os clientes na barbearia.
+- ✔️ **Interface Responsiva**: O sistema é adaptável a diferentes tamanhos de tela, funcionando em dispositivos móveis e desktop.
+- ✔️ **Diálogos de Confirmação**: Apresenta diálogos para confirmar ações importantes, como exclusão de registros ou confirmações de agendamento.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🛠 Estrutura do Projeto
 
-## Building
+Abaixo está a organização dos principais componentes e serviços do projeto:
 
-To build the project run:
+### **Clientes**
 
-```bash
-ng build
-```
+- **new-client**: Tela para cadastro de um novo cliente.
+- **list-clients**: Tela para exibição da listagem de clientes cadastrados.
+- **edit-client**: Tela para edição dos dados de um cliente.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+**Componentes**:
 
-## Running unit tests
+- **components/client-form**: Formulário para cadastro de cliente.
+- **components/client-table**: Tabela para exibição dos clientes cadastrados.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+**Modelos de dados**:
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **client.models.ts**: Arquivo com os modelos de dados relacionados aos clientes.
